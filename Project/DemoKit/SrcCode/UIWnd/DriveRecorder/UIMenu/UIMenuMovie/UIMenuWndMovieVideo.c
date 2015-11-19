@@ -376,9 +376,9 @@ INT32 UIMenuWndMovieVideo_Video_Menu_OnKeyRight(VControl *pCtrl, UINT32 paramNum
         case UIMenuWndMovieVideo_Video_Menu_STRID_CYCLIC_REC:
             Ux_OpenWindow(&UIMenuWndMovieCyclicRecCtrl,0);
             break;
-        case UIMenuWndMovieVideo_Video_Menu_STRID_MOTION_DET:
-            Ux_OpenWindow(&UIMenuWndMovieMotionDetCtrl,0);
-            break;
+        //case UIMenuWndMovieVideo_Video_Menu_STRID_MOTION_DET:
+            //Ux_OpenWindow(&UIMenuWndMovieMotionDetCtrl,0);
+            //break;
         case UIMenuWndMovieVideo_Video_Menu_STRID_RECORD_AUDIO:
             Ux_OpenWindow(&UIMenuWndMovieAudioSetCtrl,0);
             break;

@@ -22,7 +22,7 @@
 //#define DSC_FW_VERSION_STR          "SL513.20141231.V0.01"
 //#define DSC_FW_VERSION_STR          "SL513.20150909.V0.01"
 //#define DSC_FW_VERSION_STR          "SL513.20150914.V0.02"
-#define DSC_FW_VERSION_STR          "SL513.20151109.V0.01"//Open debug message
+#define DSC_FW_VERSION_STR          "G513.20151118.V0.01"//Open debug message
 
 
 #endif

@@ -7,7 +7,7 @@
 #define CUSTOMER_DF     0x05    //¶«·ç
 
 
-#define CUSTOMER_TYPE      CUSTOMER_CITROEN//CUSTOMER_CITROEN
+#define CUSTOMER_TYPE      CUSTOMER_PEUGEOT//CUSTOMER_CITROEN
 
 #if(CUSTOMER_TYPE==CUSTOMER_NOVATEK)//novate default logo
 const UINT8 g_ucBGOpening[] =

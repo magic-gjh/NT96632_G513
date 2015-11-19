@@ -1657,7 +1657,7 @@ INT32 UIFlowWndMovie_OnMovieOneSec(VControl *pCtrl, UINT32 paramNum, UINT32 *par
 	if(flag == 0)
 	{
 		flag = 1;
-		app_set_boot_rec_start();
+		//app_set_boot_rec_start();
 	}
     }
     return NVTEVT_CONSUME;

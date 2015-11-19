@@ -1175,6 +1175,10 @@ UINT32 app_check_reckey_space(void)
 void app_set_reckey_count(void)
 {
 	RecKeyCount++;
+	if(RecKeyCount > 5000)
+	{
+		RecKeyCount = 0;
+	}
 }
 
 void app_reset_reckey_count(void)

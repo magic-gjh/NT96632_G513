@@ -129,7 +129,8 @@ void KeyScan_DetTV(void)
 	
     bCurTVDet = GPIOMap_DetTV();
 
-    bCurTVStatus = (BOOL)(bCurTVDet & bLastTVDet);
+    //bCurTVStatus = (BOOL)(bCurTVDet & bLastTVDet);
+    bCurTVStatus = FALSE;
 
     if (bCurTVStatus != bLastTVStatus)
     {		

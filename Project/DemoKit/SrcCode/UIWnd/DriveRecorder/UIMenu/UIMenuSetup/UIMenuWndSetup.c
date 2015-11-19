@@ -388,9 +388,9 @@ INT32 UIMenuWndSetup_Setup_Menu_OnKeyRight(VControl *pCtrl, UINT32 paramNum, UIN
         case UIMenuWndSetup_Setup_Menu_STRID_DATE_TIME:
             Ux_OpenWindow(&UIMenuWndSetupDateTimeCtrl,0);
             break;
-        case UIMenuWndSetup_Setup_Menu_STRID_AUTO_OFF:
-            Ux_OpenWindow(&UIMenuWndSetupAutoPowerOffCtrl,0);
-            break;
+        //case UIMenuWndSetup_Setup_Menu_STRID_AUTO_OFF:
+            //Ux_OpenWindow(&UIMenuWndSetupAutoPowerOffCtrl,0);
+            //break;
         case UIMenuWndSetup_Setup_Menu_STRID_BEEPER:
             Ux_OpenWindow(&UIMenuWndSetupBeepSoundCtrl,0);
             break;
@@ -449,9 +449,9 @@ INT32 UIMenuWndSetup_Setup_Menu_OnKeyEnter(VControl *pCtrl, UINT32 paramNum, UIN
         case UIMenuWndSetup_Setup_Menu_STRID_DATE_TIME:
             Ux_OpenWindow(&UIMenuWndSetupDateTimeCtrl,0);
             break;
-        case UIMenuWndSetup_Setup_Menu_STRID_AUTO_OFF:
-            Ux_OpenWindow(&UIMenuWndSetupAutoPowerOffCtrl,0);
-            break;
+        //case UIMenuWndSetup_Setup_Menu_STRID_AUTO_OFF:
+            //Ux_OpenWindow(&UIMenuWndSetupAutoPowerOffCtrl,0);
+            //break;
         case UIMenuWndSetup_Setup_Menu_STRID_BEEPER:
             Ux_OpenWindow(&UIMenuWndSetupBeepSoundCtrl,0);
             break;

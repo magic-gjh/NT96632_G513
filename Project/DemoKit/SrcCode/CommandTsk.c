@@ -74,7 +74,7 @@
 #include "UIMenuMovieSettings.h"
 #if (_COMMANDTSK_MODE_ == ENABLE)
 
-#define _NAVI_COMUNICATION_PRO_    ENABLE //DISABLE//
+#define _NAVI_COMUNICATION_PRO_    DISABLE //DISABLE//
 
 #define CmdTsk_OutputMsg(msg)           debug_msg msg
 
@@ -229,7 +229,8 @@ void app_Reset_boot_rec_start(void)
 void CommandTsk(void)
 {
     CHAR    pcCommandLine[_UART_MONITOR_CMD_SIZE];
-    UINT16    cLen;
+    //UINT16    cLen;
+    CHAR    cLen;
     static UINT32 Step=0;
     static UINT32 Cmd_counter=0xff;
     UINT32 CheckSum,CheckSum_Cur;
